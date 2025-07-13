@@ -1,6 +1,16 @@
 # Cybersecurity Threat Detection System (MERN Stack)
+Login page
+![8FAC8A9E-DF00-4688-BC2B-CB9C27F98C4D](https://github.com/user-attachments/assets/fe7cebbb-c7e9-4c47-a0b6-7fb510b19a98)
+Dashboard
+![1CFF0A14-0447-4B00-A9B6-DE64303B9A74](https://github.com/user-attachments/assets/a729417c-03cb-4485-b15d-b6f99014459f)
+Threat Management
+![A63C789A-52B6-418B-A928-62FFC01FD7DE](https://github.com/user-attachments/assets/895358c4-e5e5-4b35-a4fd-44bbe1f2b53c)
+Notification Center
+![97709ECF-B662-45E2-9244-B06C34859C82](https://github.com/user-attachments/assets/b6bb670b-f7f3-4fbf-b15a-4e213e8c6df4)
+Search&Audit Trail
+![95B0AC73-0C5E-4B79-A955-B3BEA8A6C973](https://github.com/user-attachments/assets/98f08ca9-e92c-40a0-8bb2-c4f461c9e9a0)
 
-## 🚀 Overview
+## 🚀 Overviewer
 A real-time web-based platform to detect, log, and visualize suspicious user activities (e.g., brute-force login attempts, SQL injections, suspicious IPs) using the MERN stack. Designed for organizations to proactively monitor and manage potential threats.
 
 ---
