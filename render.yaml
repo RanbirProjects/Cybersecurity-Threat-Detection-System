@@ -1,0 +1,29 @@
+services:
+  # Backend API
+  - type: web
+    name: cybersecurity-threat-api
+    env: node
+    plan: starter
+    buildCommand: cd server && npm install
+    startCommand: cd server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: MONGODB_URI
+        sync: false
+      - key: JWT_SECRET
+        sync: false
+      - key: JWT_EXPIRES_IN
+        value: 24h
+      - key: CLIENT_URL
+        value: https://cybersecurity-threat-dashboard.onrender.com
+
+  # Frontend Dashboard
+  - type: web
+    name: cybersecurity-threat-dashboard
+    env: static
+    buildCommand: cd client && npm install && npm run build
+    staticPublishPath: ./client/build
+    envVars:
+      - key: REACT_APP_API_URL
+        value: https://cybersecurity-threat-api.onrender.com/api 
